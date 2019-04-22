@@ -1,0 +1,33 @@
+{
+  "name": "localbitcoins-api-promise",
+  "version": "1.0.0",
+  "description": "Asynchronous Node.js LocalBitcoins API wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopher-siewert/localbitcoins-api-promise.git"
+  },
+  "keywords": [
+    "localbitcoins",
+    "api",
+    "promise",
+    "bitcoin",
+    "cryptocurrency"
+  ],
+  "author": "Christopher Siewert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christopher-siewert/localbitcoins-api-promise/issues"
+  },
+  "homepage": "https://github.com/christopher-siewert/localbitcoins-api-promise#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "url": "^0.11.0"
+  }
+}
